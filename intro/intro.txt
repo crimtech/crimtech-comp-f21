@@ -1,52 +1,52 @@
 ===Replace the answers in the (parentheses)!===
 
 My name is:
-(name)
+(Jared)
 
 My preferred email is:
-(email)
+(jaredhu@college.harvard.edu)
 
 My GitHub username is:
-(i_aint_afraid_of_no_ghost)
+(milkteadj)
 
 My class year is:
-(2022 | 2023 | 2024 | 2025)
+(2025)
 
 I'm (planning on) concentrating in:
-(concentration)
+(Computer Science)
 
 I'm living in:
-(house)
+(Canaday)
 
 My favorite food/cuisine is:
-(toothpaste/antarctican)
+(soup dumpling/Chinese)
 
 My favorite HUDS food is:
-(RICEEEEEEEEE)
+(smoked salmon)
 
 My favorite movie is:
-(gone with the wind)
+(Inception)
 
 Things that I enjoy doing at home include:
-(making dresses out of curtains - any Enchanted fans here?)
+(Eating with the homies)
 
 Things that I enjoy doing on campus include:
-(going to CVS three times a day)
+(hanging out with friends)
 
 Before Crimson Tech, I've coded:
-(i've never coded | during classes/hackathons | during jobs/internships | something else: ____ )
+(during classes)
 
 I decided to comp Crimtech because:
-(olivia and max seemed REALLY cool at the open house)
+(olivia and max ARE really cool at the open house, and good vibes, and I want to improve my CS skills with real projects)
 
 What I hope to get out of the comp is:
-(new friends, new tech skills, crispy chicken fingers)
+(new friends, tech skills tech skills tech skills and hopefully enough skills to get an internship)
 
 Ideas I have for making the comp more helpful or fun include:
-(max giving everyone $10,000 when they finish a lab)
+(making big projects that we can impress recruiters with)
 
 A song that I would like added to the official Crimtech Comp Fall 2021 Playlist is:
-(turn down for what)
+(My Shot from Hamilton)
 
 Questions or concerns I have about the comp, school, or life in general are:
-(42)
+(HOW DO I GET A SUMMER TECH INTERNSHIP??? >_<)
