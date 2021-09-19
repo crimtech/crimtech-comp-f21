@@ -1,52 +1,52 @@
 ===Replace the answers in the (parentheses)!===
 
 My name is:
-(name)
+Michael Hu
 
 My preferred email is:
-(email)
+michaelhu@college.harvard.edu
 
 My GitHub username is:
-(i_aint_afraid_of_no_ghost)
+GuessHuIAm
 
 My class year is:
-(2022 | 2023 | 2024 | 2025)
+2025
 
 I'm (planning on) concentrating in:
-(concentration)
+Computer Science
 
 I'm living in:
-(house)
+Wigglesworth
 
 My favorite food/cuisine is:
-(toothpaste/antarctican)
+Any variation of fried chicken
 
 My favorite HUDS food is:
-(RICEEEEEEEEE)
+Caesar salad
 
 My favorite movie is:
-(gone with the wind)
+Spirited Away
 
 Things that I enjoy doing at home include:
-(making dresses out of curtains - any Enchanted fans here?)
+Drawing, listening to music, binging Netflix
 
 Things that I enjoy doing on campus include:
-(going to CVS three times a day)
+Running, making noise in Widener, hanging out (mostly psetting) with friends
 
 Before Crimson Tech, I've coded:
-(i've never coded | during classes/hackathons | during jobs/internships | something else: ____ )
+I've coded in school
 
 I decided to comp Crimtech because:
-(olivia and max seemed REALLY cool at the open house)
+Olivia and Max seemed REALLY cool at the open house, would like to learn more about coding as well. Also, the Crimson is cool.
 
 What I hope to get out of the comp is:
-(new friends, new tech skills, crispy chicken fingers)
+New friends, new tech skills, crispy and spicy chicken fingers.
 
 Ideas I have for making the comp more helpful or fun include:
-(max giving everyone $10,000 when they finish a lab)
+Food at socials or meetings in fun places! or (Max giving everyone $10,000 when they finish a lab)
 
 A song that I would like added to the official Crimtech Comp Fall 2021 Playlist is:
-(turn down for what)
+"Home" by Edward Sharpe and the Magnetic Zeros
 
 Questions or concerns I have about the comp, school, or life in general are:
-(42)
+Is it possible to comp Tech and Design and be able to do both?
