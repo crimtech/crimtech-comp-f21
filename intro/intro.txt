@@ -1,52 +1,52 @@
 ===Replace the answers in the (parentheses)!===
 
 My name is:
-(name)
+Jessica Zhang
 
 My preferred email is:
-(email)
+jjzhang@college.harvard.edu
 
 My GitHub username is:
-(i_aint_afraid_of_no_ghost)
+jessicajzhang03
 
 My class year is:
-(2022 | 2023 | 2024 | 2025)
+2025
 
 I'm (planning on) concentrating in:
-(concentration)
+math
 
 I'm living in:
-(house)
+Wigglesworth
 
 My favorite food/cuisine is:
-(toothpaste/antarctican)
+is it too generic to say cheese pizza?
 
 My favorite HUDS food is:
-(RICEEEEEEEEE)
+oyster crackers
 
 My favorite movie is:
-(gone with the wind)
+movies are too long for my short attention span
 
 Things that I enjoy doing at home include:
-(making dresses out of curtains - any Enchanted fans here?)
+not having to pay for laundry
 
 Things that I enjoy doing on campus include:
-(going to CVS three times a day)
+paying for laundry and then complaining about it to everyone as though i'm the only one 
 
 Before Crimson Tech, I've coded:
-(i've never coded | during classes/hackathons | during jobs/internships | something else: ____ )
+for fun, mostly? nothing serious, but i'm comfortable with python, git, etc.
 
 I decided to comp Crimtech because:
-(olivia and max seemed REALLY cool at the open house)
+I like coding and making things, but a lot of the cs courses here are a bit theoretical
 
 What I hope to get out of the comp is:
-(new friends, new tech skills, crispy chicken fingers)
+new friends! also i'd like to learn how to actually build useful and interesting things (backend or frontend)
 
 Ideas I have for making the comp more helpful or fun include:
-(max giving everyone $10,000 when they finish a lab)
+I'm not sure?
 
 A song that I would like added to the official Crimtech Comp Fall 2021 Playlist is:
-(turn down for what)
+dominic the donkey
 
 Questions or concerns I have about the comp, school, or life in general are:
-(42)
+I kind of signed up for a lot of things, so I don't actually know if I'll be able to stick with this comp? sorryyy
