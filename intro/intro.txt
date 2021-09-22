@@ -1,52 +1,55 @@
 ===Replace the answers in the (parentheses)!===
 
 My name is:
-(name)
+Saketh Mynampati
 
 My preferred email is:
-(email)
+sbmynampati@college.harvard.edu
 
 My GitHub username is:
-(i_aint_afraid_of_no_ghost)
+sMyn42
 
 My class year is:
-(2022 | 2023 | 2024 | 2025)
+2025.
 
 I'm (planning on) concentrating in:
-(concentration)
+Computer Science.
 
 I'm living in:
-(house)
+Wigglesworth Hall.
 
 My favorite food/cuisine is:
-(toothpaste/antarctican)
+Ice Cream.
 
 My favorite HUDS food is:
-(RICEEEEEEEEE)
+That Tiramisu they put out in annenberg once and I had to scrape up little
+bits of it because it was all gone, but the flavor packed into the crumbs that
+remained fed my soul for eternities.
 
 My favorite movie is:
-(gone with the wind)
+Shawshank Redemption.
 
 Things that I enjoy doing at home include:
-(making dresses out of curtains - any Enchanted fans here?)
+Shooting hoops/doing trick shots.
 
 Things that I enjoy doing on campus include:
-(going to CVS three times a day)
+Waking up in a cold sweat.
 
 Before Crimson Tech, I've coded:
-(i've never coded | during classes/hackathons | during jobs/internships | something else: ____ )
+I've coded during classes/hackathons/internships.
 
 I decided to comp Crimtech because:
-(olivia and max seemed REALLY cool at the open house)
+Olivia and max seemed pretty darn cool at the open house.
 
 What I hope to get out of the comp is:
-(new friends, new tech skills, crispy chicken fingers)
+Work on exciting new projects and do some new things like React, hopefully.
 
 Ideas I have for making the comp more helpful or fun include:
-(max giving everyone $10,000 when they finish a lab)
+Free food.
 
 A song that I would like added to the official Crimtech Comp Fall 2021 Playlist is:
-(turn down for what)
+YOLO by Kendrick Lamar.
 
 Questions or concerns I have about the comp, school, or life in general are:
-(42)
+How hard does the tech side of the comp get? Also, what's the best way to plan
+to write a 5-page paper?
