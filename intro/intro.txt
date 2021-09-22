@@ -1,52 +1,52 @@
 ===Replace the answers in the (parentheses)!===
 
 My name is:
-(name)
+Jack Tian
 
 My preferred email is:
-(email)
+jtian@college.harvard.edu  
 
 My GitHub username is:
-(i_aint_afraid_of_no_ghost)
+ketchupandmustard
 
 My class year is:
-(2022 | 2023 | 2024 | 2025)
+2025
 
 I'm (planning on) concentrating in:
-(concentration)
+Either Mechanical Engineering, CS, Econ, or Applied Math
 
 I'm living in:
-(house)
+Canaday
 
 My favorite food/cuisine is:
-(toothpaste/antarctican)
+Fried Chicken/Tex Mex
 
 My favorite HUDS food is:
-(RICEEEEEEEEE)
+Chicken Tendies
 
 My favorite movie is:
-(gone with the wind)
+3 Idiots
 
 Things that I enjoy doing at home include:
-(making dresses out of curtains - any Enchanted fans here?)
+Sleep, play video games, read
 
 Things that I enjoy doing on campus include:
-(going to CVS three times a day)
+Pretending I know what I'm doing, meeting people, eating annie food
 
 Before Crimson Tech, I've coded:
-(i've never coded | during classes/hackathons | during jobs/internships | something else: ____ )
+during classes/hackathons
 
 I decided to comp Crimtech because:
-(olivia and max seemed REALLY cool at the open house)
+I wanted to get involved in CS and gain real experience through a beginner-friendly process
 
 What I hope to get out of the comp is:
-(new friends, new tech skills, crispy chicken fingers)
+New friends, skills, memories
 
 Ideas I have for making the comp more helpful or fun include:
-(max giving everyone $10,000 when they finish a lab)
+Foooooddddd
 
 A song that I would like added to the official Crimtech Comp Fall 2021 Playlist is:
-(turn down for what)
+Take me home country roads
 
 Questions or concerns I have about the comp, school, or life in general are:
-(42)
+Good winter shoes?
