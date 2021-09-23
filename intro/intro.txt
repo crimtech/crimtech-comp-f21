@@ -1,52 +1,52 @@
 ===Replace the answers in the (parentheses)!===
 
 My name is:
-(name)
+Michael Young
 
 My preferred email is:
-(email)
+michaelyoung@college.harvard.edu
 
 My GitHub username is:
-(i_aint_afraid_of_no_ghost)
+michaelyoung25
 
 My class year is:
-(2022 | 2023 | 2024 | 2025)
+2025
 
 I'm (planning on) concentrating in:
-(concentration)
+Applied Math or CS
 
 I'm living in:
-(house)
+Straus
 
 My favorite food/cuisine is:
-(toothpaste/antarctican)
+Sushi
 
 My favorite HUDS food is:
-(RICEEEEEEEEE)
+Dessert <3
 
 My favorite movie is:
-(gone with the wind)
+La La Land
 
 Things that I enjoy doing at home include:
-(making dresses out of curtains - any Enchanted fans here?)
+Singing
 
 Things that I enjoy doing on campus include:
-(going to CVS three times a day)
+Walking around campus on a nice day
 
 Before Crimson Tech, I've coded:
-(i've never coded | during classes/hackathons | during jobs/internships | something else: ____ )
+During jobs/internships and for classes
 
 I decided to comp Crimtech because:
-(olivia and max seemed REALLY cool at the open house)
+Olivia and Max seemed REALLY cool at the open house (actually true)
 
 What I hope to get out of the comp is:
-(new friends, new tech skills, crispy chicken fingers)
+New friends and new tech skills!
 
 Ideas I have for making the comp more helpful or fun include:
-(max giving everyone $10,000 when they finish a lab)
+Having food at meetings and organize socials!
 
 A song that I would like added to the official Crimtech Comp Fall 2021 Playlist is:
-(turn down for what)
+Ed Sheeran - Bad Habits
 
 Questions or concerns I have about the comp, school, or life in general are:
-(42)
+N/A!
