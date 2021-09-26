@@ -1,10 +1,7 @@
 import math
 
 def square_root(n):
-    if n < 0:
-        return -1
-    else:
-        return math.sqrt(n)
+    
     return 0
 
 def test():
