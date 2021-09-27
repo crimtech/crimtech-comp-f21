@@ -2,7 +2,18 @@ import math
 
 def square_root(n):
     # Write your code here!
-    return 0
+    # Case of negative or not int
+    try:
+        n = int(n)
+    except:
+        return -1
+    if (n < 0):
+        return -1
+    
+    # int > 0
+    else:
+        return n**0.5
+    
 
 def test():
     assert square_root(4) == 2

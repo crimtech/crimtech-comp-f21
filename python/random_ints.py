@@ -3,6 +3,12 @@ import random
 def random_ints():
     # Write your code here!
     l = []
+    r = 0
+    while( r != 7):
+        r = random.randint(1,10)
+        l.append(r)
+    
+    l.append(r)
     return l
 
 def test():
