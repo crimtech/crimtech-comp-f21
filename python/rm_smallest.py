@@ -1,5 +1,17 @@
 def rm_smallest(d):
-    # Your code here!
+    smallest = float('inf')
+    keys = list(d.keys())
+    if (len(keys) > 0):
+        theKey = keys[0]
+
+        for key in d:
+            current = d[key]
+            
+            if current < smallest:
+                smallest = current
+                the_lowest_key = key
+
+        del d[the_lowest_key]
     return d
 
 def test():
