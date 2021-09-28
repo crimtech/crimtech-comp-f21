@@ -1,5 +1,9 @@
 def sum(l, N):
     # Write your code here!
+    for i in range(len(l)):
+        for j in l[i+1:]:
+            if  (l[i] + j) == N:
+                return True
     return False
 
 def test():

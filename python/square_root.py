@@ -2,7 +2,13 @@ import math
 
 def square_root(n):
     # Write your code here!
-    return 0
+    if not isinstance(n, int):
+        return -1
+    elif n < 0:
+        return -1
+    else:
+        value = (int)(math.sqrt(n))
+        return value
 
 def test():
     assert square_root(4) == 2
@@ -13,3 +19,4 @@ def test():
 
 if __name__ == "__main__":
     test()
+    
