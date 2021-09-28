@@ -1,5 +1,7 @@
 def rm_smallest(d):
-    # Your code here!
+    if d:
+        small = min(d, key = d.get)
+        del d[small]
     return d
 
 def test():

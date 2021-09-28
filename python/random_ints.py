@@ -1,8 +1,11 @@
 import random
+from random import randint
 
 def random_ints():
-    # Write your code here!
     l = []
+    while 7 not in l:
+        randomnum = randint(1, 10)
+        l.append(randomnum)
     return l
 
 def test():
