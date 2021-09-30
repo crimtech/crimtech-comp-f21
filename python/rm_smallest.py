@@ -1,5 +1,18 @@
 def rm_smallest(d):
     # Your code here!
+    min = 0
+    minkey = '.'
+    iterations = 0;
+
+    for k in d:
+        if d[k] < min or iterations == 0:
+            min = d[k]
+            minkey = k
+        iterations += 1
+
+    if minkey in d:
+        del d[minkey]
+
     return d
 
 def test():

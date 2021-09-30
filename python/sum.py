@@ -1,5 +1,12 @@
 def sum(l, N):
     # Write your code here!
+
+    my_range = range(len(l))
+    for i in my_range:
+        for j in my_range:
+            if l[i] + l[j] == N and i != j:
+                return True
+
     return False
 
 def test():

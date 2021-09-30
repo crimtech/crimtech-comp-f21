@@ -2,7 +2,12 @@ import random
 
 def random_ints():
     # Write your code here!
+
     l = []
+
+    while not 7 in l:
+        l.append(random.randrange(10)+1)
+
     return l
 
 def test():
