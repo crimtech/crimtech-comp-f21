@@ -1,5 +1,9 @@
 def sum(l, N):
-    # Write your code here!
+    for idx, i in enumerate(l):
+        for idx2, j in enumerate(l):
+            if idx != idx2:
+                if i + j == N:
+                    return True
     return False
 
 def test():

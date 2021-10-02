@@ -1,8 +1,15 @@
 import random
 
 def random_ints():
-    # Write your code here!
     l = []
+    found = False
+    while not found:
+        nr = random.randint(1, 10)
+        if nr != 7:
+            l.append(nr)
+        else:
+            l.append(7)
+            found = True
     return l
 
 def test():
