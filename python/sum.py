@@ -1,5 +1,17 @@
 def sum(l, N):
     # Write your code here!
+    duplicates = l 
+    l = set(l)
+    for x in l:
+        duplicates.remove(x)
+    for x in l:
+        for y in l:
+            if(x==y):
+                if(y in duplicates and x+y==N):
+                    return True
+            else:
+                if(x+y==N):
+                    return True
     return False
 
 def test():
