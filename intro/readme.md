@@ -52,7 +52,7 @@ Run the command `git add -A`, then `git commit -m "Submit intro"` You should get
 
 At this step, Git may ask you to set your username/email. If so, follow those instructions or call us over if you're confused.
 
-## Push the commit
+## Push the Commit
 The change you just made is still only living on your local machine. How do you upload them to GitHub?
 Run the command `git push`. Then, go onto your github repository. You should see some changes there!
 
