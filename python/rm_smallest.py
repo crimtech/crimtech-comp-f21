@@ -1,5 +1,10 @@
 def rm_smallest(d):
-    # Your code here!
+
+    if len(d) == 0:
+        return d
+    else:
+        small_key = min(d, key = lambda x: d.get(x))
+        d.pop(small_key)
     return d
 
 def test():

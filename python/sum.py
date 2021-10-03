@@ -1,7 +1,17 @@
 def sum(l, N):
-    # Write your code here!
+    for i in range(len(l)):
+        for j in range(i):
+            s = l[i] + l[j]
+            if s == N:
+                return True
+        for j in range((i + 1), len(l)):
+            s = l[i] + l[j]
+            if s == N:
+                return True        
     return False
-
+    # I'm sorry, I know this is very likely not the most elegant
+    # way of doing it but I just read the hint: use set() after 
+    # finishing it lmao 🥴
 def test():
     assert sum([-1, 1], 0)
     assert not sum([0,2,3], 4)

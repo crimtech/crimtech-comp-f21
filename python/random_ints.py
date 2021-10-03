@@ -1,9 +1,21 @@
 import random
 
 def random_ints():
-    # Write your code here!
     l = []
-    return l
+    while True:
+        m = (int) (random.random()*10)
+        if m == 0:
+            m = m + 1
+        l.append(m)
+        if m == 7:
+            return l
+
+# l = []
+#    while True:
+#        m = random.randint(1, 1)
+#        l.append(m)
+#        if m == 7:
+#            return l
 
 def test():
     N = 10000
