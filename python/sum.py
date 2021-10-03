@@ -1,5 +1,10 @@
 def sum(l, N):
-    # Write your code here!
+    original_l = l
+    l = set(l)
+    for i in l:
+        if (N-i) in l and ((N-i)!= i or original_l.count(N-i)>1):
+            return True
+
     return False
 
 def test():
