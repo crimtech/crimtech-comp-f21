@@ -13,8 +13,12 @@ If at any point you have any questions or concerns, let Olivia (olivia.wenzel@th
 
 **Schedule**:
 
-9/19 - Week 0: Introduction
+Add the Comp GCal to your calendar [here](https://calendar.google.com/calendar/u/2?cid=Y19lZzI3ZTY4cDVyZ3Vvb2lkbDF0ZG1vdTI1NEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)!
 
-We will provided an updated schedule soon!
+9/19 - Week 0: Introduction (Intro)
 
-**Playlist**: COMING SOON!
+9/26 - Week 1: Python
+
+10/3 - Week 2: Snek
+
+**Playlist**: https://www.youtube.com/playlist?list=PLTJqmtXRgl695qMAtdhcO3EN4qPnWiZ_8
