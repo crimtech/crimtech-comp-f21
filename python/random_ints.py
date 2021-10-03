@@ -12,7 +12,7 @@ def random_ints():
 
 # l = []
 #    while True:
-#        m = random.randint(1, 1)
+#        m = random.randint(1, 10)
 #        l.append(m)
 #        if m == 7:
 #            return l
