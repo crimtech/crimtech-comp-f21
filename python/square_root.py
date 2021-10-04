@@ -1,7 +1,10 @@
 import math
 
 def square_root(n):
-    if n >= 0:
+    if isinstance(n, (int, float)) == False:
+        return -1
+    
+    elif n >= 0:
         return math.sqrt(n)
     
     else:
