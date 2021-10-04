@@ -3,8 +3,15 @@ import random
 def random_ints():
     # Write your code here!
     l = []
-    return l
-
+    a = True
+    
+    while a == True:
+        x = random.randint(0, 10)
+        l.append(x)
+        
+        if x == 7:
+            return l
+   
 def test():
     N = 10000
     total_length = 0
