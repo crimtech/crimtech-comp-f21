@@ -1,5 +1,14 @@
 def rm_smallest(d):
-    # Your code here!
+    min_value = float('inf')
+    key = 0
+    
+    if d:
+        for i in d.keys():
+            if d.get(i) < min_value:
+                min_value = d.get(i)
+                key = i
+        del d[key]
+
     return d
 
 def test():
