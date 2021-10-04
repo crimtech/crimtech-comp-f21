@@ -6,7 +6,7 @@ def random_ints():
     a = True
     
     while a == True:
-        x = random.randint(0, 10)
+        x = random.randint(1, 10)
         l.append(x)
         
         if x == 7:
