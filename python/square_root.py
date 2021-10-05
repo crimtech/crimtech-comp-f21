@@ -8,6 +8,7 @@ def square_root(n):
             return math.sqrt(n)
     else:
         return -1
+    
     return 0
 
 def test():
