@@ -1,5 +1,14 @@
 def rm_smallest(d):
     # Your code here!
+    if len(d) < 1:
+        return d
+    min = 999
+    keylist = d.keys()
+    for key in keylist:
+        if d[key] < min:
+            min = d[key]
+            min_key = key
+    del d[min_key]
     return d
 
 def test():
