@@ -40,7 +40,7 @@ class Snake(object):
 
     def collision(self, x, y):
         # TODO: See section 2, "Collisions", and section 4, "Self Collisions"
-        if x > WIDTH or x < 0 or y > HEIGHT or y < 0:
+        if x >= WIDTH or x < 0 or y >= HEIGHT or y < 0:
             self.kill()
         for i in range(len(self.body) - 1):
             if (x, y) == self.body[i + 1]:
@@ -54,7 +54,7 @@ class Snake(object):
         # TODO: See section 1, "Move the snake!". You will be revisiting this section a few times.
         length = len(self.body)
         for i in range(length - 1):
-            self.body[length - 1] = self.body[length - 2]
+            self.body[length - 1 - i] = self.body[length - 2 - i]
         # move head
         x = self.body[0][0] + DIR[self.direction][0]
         y = self.body[0][1] + DIR[self.direction][1]
@@ -108,8 +108,13 @@ class Apple(object):
 
     def place(self, snake):
         # TODO: see section 6, "moving the apple".
+        while True:
+            self.position = (rand_int(WIDTH-1), rand_int(HEIGHT-1))
 
-        self.position = (rand_int(WIDTH), rand_int(HEIGHT))
+            if snake == []:
+                break
+            if not self.position in snake.body:
+                break
 
     def draw(self, surface):
         pos = (self.position[0] * SIZE, self.position[1] * SIZE)
@@ -128,6 +133,8 @@ def main():
 
     clock = pygame.time.Clock()
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), 0, 32)
+
+    myfont = pygame.font.SysFont(pygame.font.get_default_font(), 30)
 
     surface = pygame.Surface(screen.get_size())
     surface = surface.convert()
@@ -149,8 +156,7 @@ def main():
         apple.draw(surface)
 
         if snake.body[0] == apple.position:
-            print("Eating apple")
-            score + 1
+            score += 1
             apple.place(snake)
             snake.l += 1
             snake.body.append(snake.body[len(snake.body)-1])
@@ -158,6 +164,9 @@ def main():
         # TODO: see section 5, "Eating the Apple".
         screen.blit(surface, (0,0))
         # TODO: see section 8, "Display the Score"
+
+        textsurface = myfont.render("Score: " + str(score), False, (0, 0, 0))
+        screen.blit(textsurface,(0,0))
 
         pygame.display.update()
         if snake.dead:
