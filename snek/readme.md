@@ -52,7 +52,7 @@ Now that the snake is moving, it will go off the screen into the vast void of sa
 We need to be able to turn the snake. Modify the `turn` function so that after the function is called, `self.direction` is set to the new direction.
 
 4. Self Collisions.
-But, the snake can collide with itself! Change the `collision` function so that it returns `True` if the snake's head has hit another part of its body.
+But, the snake can't collide with itself! Change the `collision` function so that it returns `True` if the snake's head has hit another part of its body.
 
 Tip: You may need to make the snake longer and slow down time (decrease the tick_time variable) to test this.
 
