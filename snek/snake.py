@@ -44,6 +44,8 @@ class Snake(object):
     def collision(self, x, y):
         if x > 23 or x < 0 or y > 23 or y < 0:
             return True
+        if x - self.body[self.l - 1][0] <= self.length or y - self.body[self.l - 1][1] <= self.length:
+            return True
         pass
     
     def coyote_time(self):
