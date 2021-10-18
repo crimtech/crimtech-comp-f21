@@ -142,7 +142,7 @@ class Apple(object):
         self.place([])
 
     def place(self, snake):
-        # TODO: see section 6, "moving the apple".
+        
         self.eaten = True
         self.position = (rand_int(23), rand_int(23))
         pass
