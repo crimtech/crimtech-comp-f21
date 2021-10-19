@@ -19,4 +19,6 @@ Add the Comp GCal to your calendar [here](https://calendar.google.com/calendar/u
 
 9/26 - Week 1: Python
 
+10/3 - Week 2: Snek
+
 **Playlist**: https://www.youtube.com/playlist?list=PLTJqmtXRgl695qMAtdhcO3EN4qPnWiZ_8
