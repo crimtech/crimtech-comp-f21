@@ -35,39 +35,20 @@ class Snake(object):
         return self.body[0]
 
     def turn(self, dir):
-        self.direction = dir
+        # TODO: See section 3, "Turning the snake".
+        pass
 
     def collision(self, x, y):
-        if x < 0 or x > WIDTH or y < 0 or y > HEIGHT:
-            return True
-        if (x,y) in self.body[1:]:
-            return True
-        return False
+        # TODO: See section 2, "Collisions", and section 4, "Self Collisions"
+        pass
     
     def coyote_time(self):
         # TODO: See section 13, "coyote time".
         pass
 
     def move(self):
-        direction = self.direction
-        
-        length = len(self.body) - 1
-        if self.l != length:
-            last = self.body[length - 1]
-            self.body.append(last)
-
-        temp = (self.body[0][0] + DIR[direction][0], self.body[0][1]+ DIR[direction][1])
-        for i in range(len(self.body)-1, 0, -1):
-            self.body[i] = self.body[i-1]
-        self.body[0] = temp
-
-        # checks for collision
-        if self.collision(self.body[0][0], self.body[0][1]):
-            self.kill()
-    
-        return
-        
-
+        # TODO: See section 1, "Move the snake!". You will be revisiting this section a few times.
+        pass
 
     def kill(self):
         # TODO: See section 11, "Try again!"
@@ -98,13 +79,10 @@ class Snake(object):
             if event.type != pygame.KEYDOWN:
                 continue
             self.handle_keypress(event.key)
-            return True
     
     def wait_for_key(self):
-        while True:
-            for event in pygame.event.get():
-                if event.type == pygame.KEYDOWN:
-                    return
+        # TODO: see section 10, "wait for user input".
+        pass
 
 
 # returns an integer between 0 and n, inclusive.
@@ -118,14 +96,8 @@ class Apple(object):
         self.place([])
 
     def place(self, snake):
-        eat = True
-        while eat:
-            eat = False
-            new = (rand_int(WIDTH-1), rand_int(HEIGHT-1))
-            for i in snake:
-                if i == new:
-                    eat = True
-        self.position = new
+        # TODO: see section 6, "moving the apple".
+        pass
 
     def draw(self, surface):
         pos = (self.position[0] * SIZE, self.position[1] * SIZE)
@@ -141,7 +113,6 @@ def draw_grid(surface):
 
 def main():
     pygame.init()
-    pygame.font.init()
 
     clock = pygame.time.Clock()
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), 0, 32)
@@ -154,7 +125,7 @@ def main():
     apple = Apple()
 
     score = 0
-    snake.wait_for_key()
+
     while True:
         # TODO: see section 10, "incremental difficulty".
         clock.tick(10)
@@ -164,16 +135,9 @@ def main():
 
         snake.draw(surface)
         apple.draw(surface)
-        if snake.get_head() == apple.position:
-            apple.place(snake.body)
-            snake.l += 1
-            score += 1
+        # TODO: see section 5, "Eating the Apple".
         screen.blit(surface, (0,0))
-
         # TODO: see section 8, "Display the Score"
-        myfont = pygame.font.SysFont('Comic Sans MS', 30)
-        score_text = myfont.render("Score: " + str(score), True, (0, 0, 0))
-        screen.blit(score_text,(0,0))
 
         pygame.display.update()
         if snake.dead:
