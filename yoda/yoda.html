@@ -2,13 +2,15 @@
 <html>
     <head>
         <link rel='shortcut icon' type='image/png' href='img/favicon.ico'>
+        <script src="response_handler.js"></script>
     </head>
     <body>
         <center>
-            <p>"To yoda chat I welcome you. Yes, hmmmmm."</p>
-            <img src="file:///C:/Users/bryan/Coding/Repositories/crimtech-comp-f21/yoda/img/regular-force.jpg" alt="Yoda" style="width:60%">
+            <img id="yodaimg" src="file:///C:/Users/bryan/Coding/Repositories/crimtech-comp-f21/yoda/img/regular-std.jpg" alt="Yoda" style="width:60%">
+            <p id="yodaspeech">"To yoda chat I welcome you. Yes, hmmmmm."</p>
             <br>
-            <input type="text">
+            <input id="usertext" type="text">
+            <button id="userbutton" onclick="respond()">Response</button>
         </center>
     </body>
 </html>

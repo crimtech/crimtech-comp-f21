@@ -19,7 +19,36 @@ let std_quotes = ["Patience you must have, my young padawan.",
 "Difficult to see. Always in motion is the future."
 ];
 
+addEventListener("keyup", function(event) {
+    if (event.key === 'Enter') {
+        document.getElementById("userbutton").click();
+    }
+});
+
 function respond() {
     // Your Code Here
-    console.log("Hello World!");
+    yodaImage = document.getElementById("yodaimg");
+    yodaSpeech = document.getElementById("yodaspeech");
+    userInput = document.getElementById("usertext").value;
+    if (userInput.includes("cute") || userInput.includes("baby"))
+    {
+        yodaImage.setAttribute("src", "file:///C:/Users/bryan/Coding/Repositories/crimtech-comp-f21/yoda/img/cute-std.jpg");
+        yodaSpeech.innerHTML = "hmmmmmmmmmmm.";
+    }
+    if (userInput.includes("force"))
+    {
+        if (userInput.includes("dark"))
+        {
+            yodaImage.setAttribute("src", "file:///C:/Users/bryan/Coding/Repositories/crimtech-comp-f21/yoda/img/regular-dark.jpg");
+            num = Math.floor(Math.random() * 5);
+            yodaSpeech.innerHTML = dark_quotes[num];
+        }
+        else
+        {
+        yodaImage.setAttribute("src", "file:///C:/Users/bryan/Coding/Repositories/crimtech-comp-f21/yoda/img/regular-force.jpg");
+        num = Math.floor(Math.random() * 5);
+        yodaSpeech.innerHTML = force_quotes[num];
+        }
+    }
+    document.getElementById("usertext").value = "";
 }
