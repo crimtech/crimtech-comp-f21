@@ -20,6 +20,29 @@ let std_quotes = ["Patience you must have, my young padawan.",
 ];
 
 function respond() {
-    // Your Code Here
-    console.log("Hello World!");
+    let image = document.getElementById("img_yoda");
+    let yodatalk = document.getElementById("yodatalk");
+    let input = document.getElementById("txtbox").value;
+
+    if (input.includes("cute") || input.includes("baby"))
+    {
+        image.setAttribute("src", "img/cute-dark.jpg");
+        yodatalk.innerHTML = "hmmmmmmmmmmmmm";
+    }
+    if (input.includes("force"))
+    {
+        if (input.includes("dark"))
+        {
+            image.setAttribute("src", "img/regular-dark.jpg");
+            nr = Math.floor(Math.random() * 5);
+            yodatalk.innerHTML = dark_quotes[nr];
+        }
+        else
+        {
+            image.setAttribute("src", "img/regular-force.jpg");
+            nr = Math.floor(Math.random() * 5);
+            yodatalk.innerHTML = force_quotes[nr];
+        }
+    }
+    document.getElementById("txtbox").value = "";
 }
