@@ -6,15 +6,26 @@
 
 <body>
     <script>
+        let y = "hello world";
+        console.log(y.includes("hello"));
+        console.log(y.repeat(10));
         console.log("You found me!");
         function square(i) {
-            // Your code here!
-            return 0
+            if (typeof i != "number"){
+                return -1;
+            }
+            return i * i;
         }
 
         function numberString(i) {
-            // Your code here!
-            return ""
+            if(typeof i != "number" || i <= 0 || !(Number.isInteger(i))){
+                return "error";
+            }
+            let str = "";
+            for(let counter = 0; counter <= i; counter++){
+                str += counter;
+            }
+            return str;
         }
     </script>
 </body>
