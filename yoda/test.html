@@ -7,14 +7,32 @@
 <body>
     <script>
         console.log("You found me!");
+        console.log("Hello World");
+        let y = "Favorite String";
+        y.includes("hello");
+        y.repeat(10);
+
         function square(i) {
             // Your code here!
-            return 0
+            if (!isNaN(i)) {
+                return Math.pow(i, 2);
+            } else {
+                return -1;
+            }
         }
 
         function numberString(i) {
             // Your code here!
-            return ""
+            let myString = "";
+            if (!isNaN(i) && i >= 1) {
+                for (let j = 1; j <= i; j++) {
+                    myString += j;
+                }
+            } else {
+                return "Not a positive integer";
+            }
+            return myString;
         }
+        console.log(numberString(10));
     </script>
 </body>

@@ -1,9 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Yoda Chat Bot</title>
+        <link rel='shortcut icon' type='image/png' href='img/favicon.ico'>
+        <script src="response_handler.js"></script>
+        
         
     </head>
+    
     <body>
+    <center>
+        <img src="img/cute-force.jpg" alt="Cute Yoda Image" id="image" widt="100" height="200">
+        <br>
+        <p id="text">
+            To yoda chat I welcome you. Yes, hmmmmm.
+        </p>
+        <br>
+        
+        <input type="text" id="box" name="box" size="50" onkeypress="return searchKeyPress(event);">
+        <br>
+        <button type="button"onClick="respond()" id="butt">Click</button> 
+        
+        <p id="quote">
 
+        </p>
+        <p id="hm">
+
+        </p>
+    </center>
     </body>
 </html>
