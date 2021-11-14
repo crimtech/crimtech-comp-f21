@@ -8,13 +8,23 @@
     <script>
         console.log("You found me!");
         function square(i) {
-            // Your code here!
-            return 0
+            if (isNaN(i)) {
+                return i*i
+            }
+            return -1;
         }
 
         function numberString(i) {
-            // Your code here!
-            return ""
+            if (isNaN(i) || !Number.isInteger(i) || i < 0)
+            {
+                return -1;
+            }
+            let ans = ""
+            for(let j = 1; j <= i; j++)
+            {
+                ans += j;
+            }
+            return ans;
         }
     </script>
 </body>

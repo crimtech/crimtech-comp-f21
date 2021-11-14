@@ -18,8 +18,55 @@ let std_quotes = ["Patience you must have, my young padawan.",
 "Judge me by my size, do you?",
 "Difficult to see. Always in motion is the future."
 ];
+let all_quotes = dark_quotes.concat(force_quotes, std_quotes);
 
 function respond() {
     // Your Code Here
-    console.log("Hello World!");
+    var text = document.querySelector("#textbox").value;
+    var random_quote = all_quotes[Math.floor(Math.random() * 15)];
+    if(text.includes("cute") || text.includes("baby"))
+    {
+        if(text.includes("force"))
+        {
+            if(text.includes("dark"))
+            {
+                text = "img/cute-dark.jpg";
+            }
+            else{
+                text = "img/cute-force.jpg";
+            }
+            
+        }
+        else{
+            text = "img/cute-std.jpg";
+        }
+    }
+    else
+    {
+        if(text.includes("force"))
+        {
+            if(text.includes("dark"))
+            {
+                text = "img/regular-dark.jpg";
+            }
+            else{
+                text = "img/regular-force.jpg";
+            }
+        }
+        else{
+            text = "img/regular-std.jpg";
+        }
+    }
+    document.getElementById("image").src = text;
+    document.getElementById("quote").innerText = random_quote + " h" + "m".repeat(Math.floor(Math.random() * 10));
+    document.getElementById("textbox").value = "";
+    console.log(random_quote);
+    document.getElementById("textbox").onkeypress=function(e){
+        if(e.keyCode==13){
+            e.preventDefault;
+            document.getElementById("submit").click();
+        }
+    }
 }
+
+
