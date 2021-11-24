@@ -23,7 +23,6 @@ On any website, right click and choose the **"Inspect"** option. Welcome to insp
 
 ## C. Welcome to Javascript
 All right, another language! Javascript is a widely popular language used for web scripting.
-
 While it is possible to run Javascript code like you would Java or C code, we usually run the code in the web. Type your code in `test.html` and any responses in `responses.md`. *Throughout this entire section, Google is your friend*.
 1. Open up `test.html` in the browser and visit the console.
 2. Type `console.log("Hello World")` into the console.

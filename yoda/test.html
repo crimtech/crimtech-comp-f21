@@ -8,13 +8,24 @@
     <script>
         console.log("You found me!");
         function square(i) {
-            // Your code here!
-            return 0
+            if (!(typeof i === 'number')) {
+                return -1;
+            }
+            return i * i;
         }
 
         function numberString(i) {
-            // Your code here!
-            return ""
+            if (!(typeof i === 'number')) {
+                return "Input must be a number.";
+            }
+            if (!(Number.isInteger(i) && i > 0)) {
+                return "Input must be a positive integer.";
+            }
+            let string = "";
+            for (let j = 1; j <= i; j++) {
+                string += j.toString();
+            }
+            return string;
         }
     </script>
 </body>
