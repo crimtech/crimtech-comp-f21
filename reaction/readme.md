@@ -42,7 +42,7 @@ In `App.js`, you'll find the big boy, the root, of your React App: the `App` com
 
 The Panel keeps track of the following states:
 * `start_time`, which will store the last time when `start_count` is called.
-* `ran_once, which will store whether or not the user has played the game once.
+* `ran_once`, which will store whether or not the user has played the game once.
 * `counting`, which will store whether or not we are currently counting (playing the game).
 * `true_duration`, which will store how long it's supposed to take before the button turns green.
 * `color`, which will store the color of the button.
