@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
+        <title> Yoda Chat</title>
+        <link rel='shortcut icon' type='image/png' href='img/favicon.ico'>
+        <script src="response_handler.js"></script>
     </head>
     <body>
-
+        <center>
+            <p id="yodatalk">To yoda chat I welcome you. Yes, hmmmmm.</p>
+            <img id="img_yoda" src="img/cute-force.jpg" alt="yoda" height="500"><br>
+            <p>What do you have to say to Yoda?</p>
+            <input id='txtbox' type='textbox' value='' style="height:100px; width: 800px"><br><br>
+            <button id='button' type='button' onclick="respond()">Submit</button>
+        </center>
     </body>
 </html>
