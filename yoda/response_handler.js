@@ -45,4 +45,8 @@ function respond() {
         }
     }
     document.getElementById("txtbox").value = "";
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 43f9efa91cf318c2ba957b5aacef01e5abd9c2cc

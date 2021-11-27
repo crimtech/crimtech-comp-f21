@@ -29,7 +29,12 @@
 }
 
 .PanelContainer {
-  /* TODO: Your CSS Here! */
+  width: 550px;
+  height: 400px;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+  border: 1px solid grey;
 }
 
 .Panel {
