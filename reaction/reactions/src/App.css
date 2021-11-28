@@ -30,6 +30,12 @@
 
 .PanelContainer {
   /* TODO: Your CSS Here! */
+    display: flex;
+    width: 40rem;
+    height: 25rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem;
 }
 
 .Panel {
