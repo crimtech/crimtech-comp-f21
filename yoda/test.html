@@ -9,12 +9,40 @@
         console.log("You found me!");
         function square(i) {
             // Your code here!
-            return 0
+            if (typeof(i) == "number")
+            {
+                console.log("Square:")
+                return i * i;
+            }
+            else 
+            {
+               return -1;
+            }
         }
 
         function numberString(i) {
             // Your code here!
-            return ""
+            if (typeof(i) == "number")
+            {
+                if (i >= 1 && Number.isInteger(i))
+                {
+                    numString = ""
+                    for (let j = 1; j <= i; j++)
+                    {
+                        numString += String(j);
+                    }
+                    return numString
+                }
+                else
+                {
+
+                    console.error("Invalid (Non-positive-integer) Input");
+                }
+            }
+            else 
+            {
+               console.error("Invalid (Non-positive-integer) Input");
+            }
         }
     </script>
 </body>
