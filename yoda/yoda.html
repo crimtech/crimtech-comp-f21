@@ -1,11 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+            body {
+                background-color: lightblue;
+            }
+
+            h1 {
+                color: white;
+                text-align: center;
+            }
+
+            p {
+                font-family: verdana;
+                font-size: 20px;
+                text-align:center;
+            }
+        </style>
         <title>Yoda</title>
         <link rel='shortcut icon' type='image/png' href='img/favicon.ico'>
+        <script type="text/javascript" src="response_handler.js"></script>
     </head>
     <body>
-        <p style="text-align:center;">To yoda chat I welcome you. Yes, hmmmmm.</p>
-        <img src="img/cute-dark.jpg" alt="Master Yoda" style="width:500px;height:600px;">
+        <p>To yoda chat I welcome you. Yes, hmmmmm.</p>
+        <button onclick="respond()">Click Me</button>
+        <img id="img2" src="img/cute-dark.jpg" alt="Master Yoda" style="height:600px;">
+        <textarea id="text1" cols="50" rows="5">
+            dark_quotes
+        </textarea>
+        <textarea id="text2" cols="50" rows="5">
+            dark_quotes
+        </textarea>
+            
     </body>
 </html>

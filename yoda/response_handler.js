@@ -22,4 +22,34 @@ let std_quotes = ["Patience you must have, my young padawan.",
 function respond() {
     // Your Code Here
     console.log("Hello World!");
+
+    // random number generator
+    let i = Math.floor(Math.random() * 2);
+
+    // say hmmmm
+    document.getElementById('text1').innerHTML = "hmmmmmmmmmmmmmmmmmmmmmmmm";
+    
+    // set text in text boxes randomly on click
+    document.getElementById('text1').innerHTML = names[i];
+    var text = document.getElementById("text1");
+    console.log(text.textContent);
+    document.getElementById('text2').innerHTML = moods[i];
+    var text2 = document.getElementById("text2");
+    console.log(text2.textContent);
+
+    // check for conditions to adjust text content|image
+    if (document.getElementById('text1').innerHTML == "cute" || 
+        document.getElementById('text2').innerHTML == "baby" ||
+        document.getElementById('text2').innerHTML == "cute" ||
+        document.getElementById('text1').innerHTML == "baby") {
+            document.getElementById("img2").src = "img/cute-std.jpg";
+    }
+    else if(document.getElementById('text1').innerHTML == "force" ||
+            document.getElementById('text2').innerHTML == "force") {
+                document.getElementById('text1').innerHTML = force_quotes;
+            }
+
+    // clear text boxes
+    //document.getElementById('text1').value = "";
+    //document.getElementById('text2').value = "";
 }
