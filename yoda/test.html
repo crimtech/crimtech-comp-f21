@@ -8,13 +8,33 @@
     <script>
         console.log("You found me!");
         function square(i) {
-            // Your code here!
-            return 0
+            
+            // ensure input is integer 
+            if (typeof i !== "number") {
+                return -1;
+            } 
+             // square input
+            let squared_number = Math.pow(i,2);
+            return squared_number;
         }
 
         function numberString(i) {
-            // Your code here!
-            return ""
+            
+            // check input is positive int
+            str = "";
+            if (typeof i !== "number") {
+                return -1;
+            }
+            if (i < 0) {
+                return -1;
+            }
+
+            // make string
+            for (let j = 0; j <= i; j++) {
+                str += j.toString();
+            }
+            return str;
         }
     </script>
-</body>
+</body> 
+}
