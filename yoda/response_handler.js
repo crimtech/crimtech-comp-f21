@@ -19,7 +19,55 @@ let std_quotes = ["Patience you must have, my young padawan.",
 "Difficult to see. Always in motion is the future."
 ];
 
+//pressing enter should update the page
+document.addEventListener('DOMContentLoaded', function () {
+    var input = document.getElementById("input");
+    var button = document.getElementById("submit");
+    input.addEventListener("keyup", function (event) {
+        if (event.key !== "Enter") {
+            return;
+        }
+        button.click();
+        event.preventDefault();
+    });
+});
+
 function respond() {
-    // Your Code Here
-    console.log("Hello World!");
+    var text = document.getElementById("input").value;
+    document.getElementById("input").value = "";
+
+    //selecting a yoda based on the text box input
+    let name, mood, quotes;
+    if (text.includes("cute") || text.includes("baby")) {
+        name = names[0];
+    } else {
+        name = names[1];
+    }
+    if (text.includes("force")) {
+        if (text.includes("dark")) {
+            mood = moods[0];
+            quotes = dark_quotes;
+        } else {
+            mood = moods[1];
+            quotes = force_quotes;
+        }
+    } else {
+        mood = moods[2];
+        quotes = std_quotes;
+    }
+
+    //choosing a random quote based on which yoda is selected or having baby yoda say "hmm"
+    if (name == 'cute') {
+        hmm = "H" + 'm'.repeat(3 + Math.floor(Math.random() * 10)) + ".";
+        document.querySelector('#text').innerHTML = hmm;
+    } else {
+        document.querySelector('#text').innerHTML = quotes[Math.floor(Math.random() * quotes.length)];
+    }
+    
+    //setting the image
+    let image = "img/" + name + "-" + mood + ".jpg";
+    document.getElementById("pic").setAttribute("src", image);
+    
+    //logging the content of the textbox onto the console.
+    console.log(text);
 }
