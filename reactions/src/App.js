@@ -21,7 +21,7 @@ class Panel extends React.Component {
     // TODO: Your code here!
     this.setState({counting:true, color:'#8b0000', start_time:window.performance.now()});
     const randomw = Math.floor(Math.random() * 7 + 1);
-    this.setState({true_duration: randomw});
+    this.setState({true_duration: randomw}, ()=> {this.handle_color("green")});
   }
   end_count() {
     // TODO: Your code here!
@@ -32,9 +32,13 @@ class Panel extends React.Component {
     }
   }
   process_click() {
-    if (this.state.counting) {
-      this.end_count();
-    } else this.start_count();
+    if (!this.state.ran_once) {
+      if (this.state.counting) {
+        this.end_count();
+      } else {
+        this.start_count();
+      }
+    }
   }
   render() {
     let msg = "Click me to begin!";
