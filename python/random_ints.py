@@ -3,6 +3,11 @@ import random
 def random_ints():
     # Write your code here!
     l = []
+    while (True):
+        num = random.randint(1, 10)
+        l.append(num)
+        if (num == 7):
+            break
     return l
 
 def test():

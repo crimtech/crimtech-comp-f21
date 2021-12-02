@@ -1,52 +1,52 @@
 ===Replace the answers in the (parentheses)!===
 
 My name is:
-(name)
+Bryan Han
 
 My preferred email is:
-(email)
+bryanhan@college.harvard.edu
 
 My GitHub username is:
-(i_aint_afraid_of_no_ghost)
+bryanhan77
 
 My class year is:
-(2022 | 2023 | 2024 | 2025)
+2024
 
 I'm (planning on) concentrating in:
-(concentration)
+Applied Math and Economics, CS
 
 I'm living in:
-(house)
+Quincy
 
 My favorite food/cuisine is:
-(toothpaste/antarctican)
+Steak.
 
 My favorite HUDS food is:
-(RICEEEEEEEEE)
+Chicken Tenders and French Fries (they never disapoint)
 
 My favorite movie is:
-(gone with the wind)
+Whiplash
 
 Things that I enjoy doing at home include:
-(making dresses out of curtains - any Enchanted fans here?)
+playing cello and/or video games
 
 Things that I enjoy doing on campus include:
-(going to CVS three times a day)
+Trying new restuarants around Harvard Square
 
 Before Crimson Tech, I've coded:
-(i've never coded | during classes/hackathons | during jobs/internships | something else: ____ )
+Only during classes
 
 I decided to comp Crimtech because:
-(olivia and max seemed REALLY cool at the open house)
+I want to gain more hands-on experience with web programming and management.
 
 What I hope to get out of the comp is:
-(new friends, new tech skills, crispy chicken fingers)
+Experiencing how code is applicable, with friends!
 
 Ideas I have for making the comp more helpful or fun include:
-(max giving everyone $10,000 when they finish a lab)
+More social events to get to know one another!
 
 A song that I would like added to the official Crimtech Comp Fall 2021 Playlist is:
-(turn down for what)
+Late for this... but Panic! At The Disco's "Death of a Bachelor"
 
 Questions or concerns I have about the comp, school, or life in general are:
-(42)
+Where should I look to find swe internships as someone with little experience in coding?
