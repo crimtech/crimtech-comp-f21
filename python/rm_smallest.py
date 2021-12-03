@@ -1,5 +1,17 @@
 def rm_smallest(d):
-    # Your code here!
+    if len(d) == 0:
+        return d
+
+    listOfValues = d.values()
+    values = []
+    for v in listOfValues:
+        values.append(v)
+    values = sorted(values)
+    minValue = values[0]
+    for k in d.keys():
+        if d[k] == minValue:
+            keyToRemove = k    
+    d.pop(keyToRemove)
     return d
 
 def test():

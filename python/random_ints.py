@@ -1,8 +1,13 @@
 import random
 
 def random_ints():
-    # Write your code here!
     l = []
+    keepGoing = True
+    while keepGoing:
+        x = random.randint(1, 10)
+        if x == 7:
+            keepGoing = False
+        l.append(x)
     return l
 
 def test():

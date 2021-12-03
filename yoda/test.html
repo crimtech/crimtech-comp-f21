@@ -7,14 +7,35 @@
 <body>
     <script>
         console.log("You found me!");
+        console.log("Hello World");
+
+        y = "JavaScript is cool"
+        console.log(y.includes("hello"))
+        console.log(y.repeat(10))
+
         function square(i) {
-            // Your code here!
-            return 0
+            if(isNaN(i)){
+                return -1
+            }
+            else{
+                return i*i
+            }
         }
 
         function numberString(i) {
-            // Your code here!
-            return ""
+            s = ""
+            if (isNaN(i)){
+                s = "Invalid input"
+            }
+            if (Number.isInteger(i) && i > 0){
+                for (let j = 1; j <= i; j++) {
+                s += j
+                }
+            }
+            else{
+                s = "Invalid input"
+            }
+            return s
         }
     </script>
 </body>
