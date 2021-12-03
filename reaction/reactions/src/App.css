@@ -29,7 +29,13 @@
 }
 
 .PanelContainer {
-  /* TODO: Your CSS Here! */
+  width: 400px;
+  height: 200px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
 }
 
 .Panel {
