@@ -19,6 +19,12 @@ let std_quotes = ["Patience you must have, my young padawan.",
 "Difficult to see. Always in motion is the future."
 ];
 document.addEventListener('DOMContentLoaded', function(){
+    let talk = document.getElementById("talk");
+    document.addEventListener("keydown", function (e) {
+        if (e.key === "Enter") {  
+            talk.innerHTML = "h" + s + "\n"+ force_quotes[Math.floor(Math.random()*5)];
+        }
+      }); 
 let responder = document.getElementById("responder"); 
 responder.onclick = ()=> { 
     respond(); 
@@ -57,4 +63,5 @@ function respond() {
     quote.innerHTML = ""; 
 
 }
+
 });
