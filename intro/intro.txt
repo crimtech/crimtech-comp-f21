@@ -1,52 +1,52 @@
 ===Replace the answers in the (parentheses)!===
 
 My name is:
-(name)
+Edward Kang
 
 My preferred email is:
-(email)
+edwardkang@college.harvard.edu
 
 My GitHub username is:
-(i_aint_afraid_of_no_ghost)
+ekang7
 
 My class year is:
-(2022 | 2023 | 2024 | 2025)
+2025
 
 I'm (planning on) concentrating in:
-(concentration)
+Computer Science
 
 I'm living in:
-(house)
+Thayer Hall
 
 My favorite food/cuisine is:
-(toothpaste/antarctican)
+Korean
 
 My favorite HUDS food is:
-(RICEEEEEEEEE)
+Ice cream
 
 My favorite movie is:
-(gone with the wind)
+The Matrix
 
 Things that I enjoy doing at home include:
-(making dresses out of curtains - any Enchanted fans here?)
+Playing guitar, watching TV (e.g. KDramas, anime)
 
 Things that I enjoy doing on campus include:
-(going to CVS three times a day)
+Going to Chinatown and meeting new people!
 
 Before Crimson Tech, I've coded:
-(i've never coded | during classes/hackathons | during jobs/internships | something else: ____ )
+during classes/hackathons, clubs, and research internships 
 
 I decided to comp Crimtech because:
-(olivia and max seemed REALLY cool at the open house)
+I believe the news is a really important part of our democratic society and doing crimtech is my way of contributing to it!
 
 What I hope to get out of the comp is:
-(new friends, new tech skills, crispy chicken fingers)
+I want to make some awesome friendships, learn more advanced web dev, and have a great time!
 
 Ideas I have for making the comp more helpful or fun include:
-(max giving everyone $10,000 when they finish a lab)
+A mini hackathon for only crimtechers.
 
 A song that I would like added to the official Crimtech Comp Fall 2021 Playlist is:
-(turn down for what)
+No Break by THE VANE
 
 Questions or concerns I have about the comp, school, or life in general are:
-(42)
+Will we do a mini hackathon? 
