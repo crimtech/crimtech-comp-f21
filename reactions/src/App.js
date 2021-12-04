@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+<<<<<<< HEAD
 import React from 'react';
 
 class Panel extends React.Component {
@@ -51,16 +52,38 @@ class Panel extends React.Component {
     );
   }
 }
+=======
+>>>>>>> 8c797f8c37bf0b0504ed9d46e47ffca60e5218e6
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+<<<<<<< HEAD
         <h1 className =  "Header">How Fast is your Reaction Time?</h1>
         <Panel />
         <p>Click as soon as the red box turns green. Click anywhere in the box to start.</p>
+=======
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+>>>>>>> 8c797f8c37bf0b0504ed9d46e47ffca60e5218e6
       </header>
     </div>
   );
 }
+<<<<<<< HEAD
 export default App;
+=======
+
+export default App;
+>>>>>>> 8c797f8c37bf0b0504ed9d46e47ffca60e5218e6
