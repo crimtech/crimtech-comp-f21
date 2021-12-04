@@ -1,9 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
+        <title>ITS YODA!</title>
+        <link rel='shortcut icon' type='image/png' href='img/favicon.ico'>
+        <script type="text/javascript" src="response_handler.js"></script>
     </head>
     <body>
-
+        <p style="text-align:center;">To yoda chat I welcome you. Yes, hmmmmm.</p>
+        <img id="yoda" src="/Users/alexanderfung/Documents/GitHub/crimtech-comp-f21/yoda/img/cute-force.jpg" alt="Yoda">
+        <textarea id="entry" rows="5" cols="50" onkeypress="handle(event)"></textarea>
+        <script>
+            function handle(k){
+                if(k.keyCode === 13){
+                    respond();
+                }
+            }
+        </script>
+        <br>
+        <span class="popuptext" id="myPopup"></span>
+        <br>
+        <p id="hmm">hmm</p>
+        <br>
+        <Button onclick='respond()'>Enter</Button>
+        <!--finish parts f and g -->
     </body>
 </html>

@@ -1,52 +1,50 @@
-===Replace the answers in the (parentheses)!===
-
 My name is:
-(name)
+(Alexander Fung)
 
 My preferred email is:
-(email)
+(alexfung@college.harvard.edu)
 
 My GitHub username is:
 (i_aint_afraid_of_no_ghost)
 
 My class year is:
-(2022 | 2023 | 2024 | 2025)
+(2025)
 
 I'm (planning on) concentrating in:
-(concentration)
+(govt.)
 
 I'm living in:
-(house)
+(Pennypacker)
 
 My favorite food/cuisine is:
-(toothpaste/antarctican)
+(fried rice/italian)
 
 My favorite HUDS food is:
-(RICEEEEEEEEE)
+(Chicken nuggets)
 
 My favorite movie is:
-(gone with the wind)
+(The Sandlot)
 
 Things that I enjoy doing at home include:
-(making dresses out of curtains - any Enchanted fans here?)
+(Building legos)
 
 Things that I enjoy doing on campus include:
-(going to CVS three times a day)
+(Walking around)
 
 Before Crimson Tech, I've coded:
-(i've never coded | during classes/hackathons | during jobs/internships | something else: ____ )
+(during classes/hackathons)
 
 I decided to comp Crimtech because:
-(olivia and max seemed REALLY cool at the open house)
+(I want to practice coding and use it in practical situations.)
 
 What I hope to get out of the comp is:
-(new friends, new tech skills, crispy chicken fingers)
+(Yes ---> new friends, new tech skills, crispy chicken fingers)
 
 Ideas I have for making the comp more helpful or fun include:
-(max giving everyone $10,000 when they finish a lab)
+(write more thorough instructions, maybe with visuals)
 
 A song that I would like added to the official Crimtech Comp Fall 2021 Playlist is:
-(turn down for what)
+(Starcraft Terran Theme https://www.youtube.com/watch?v=mD4GbGmvNRc)
 
 Questions or concerns I have about the comp, school, or life in general are:
-(42)
+(how much time does the tech board take?)

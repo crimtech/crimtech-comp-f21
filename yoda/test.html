@@ -8,13 +8,27 @@
     <script>
         console.log("You found me!");
         function square(i) {
-            // Your code here!
-            return 0
+            if (typeof i === "number"){
+                a = i*i
+                return a
+            }
+            else{
+                return -1
+            }
         }
 
         function numberString(i) {
             // Your code here!
-            return ""
+            let text = ""
+                if (typeof i === "number" && i > 0){
+                    for(let j = 1; j <= i; j++){
+                        text+=j
+                    }
+                    return text
+                }
+                else{
+                    return "You must enter a positive whole number."
+                }
         }
     </script>
 </body>

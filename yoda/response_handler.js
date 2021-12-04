@@ -2,6 +2,7 @@
 let names = ['cute', 'regular'];
 let moods = ['dark', 'force', 'std'];
 
+
 let dark_quotes = ["Once you start down the dark path, forever will it dominate your destiny, consume you it will.",
 "In a dark place we find ourselves, and a little more knowledge lights our way.",
 "Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering.",
@@ -21,5 +22,66 @@ let std_quotes = ["Patience you must have, my young padawan.",
 
 function respond() {
     // Your Code Here
-    console.log("Hello World!");
+    console.log(document.getElementById("entry").value);
+    let e = document.getElementById("entry").value;
+    e.toLowerCase();
+    document.getElementById("entry").value = "";
+    let images = ['cute-dark.jpg', 'cute-force.jpg', 'cute-std.jpg', 'regular-dark.jpg', 'regular-force.jpg', 'regular-std.jpg'];
+    if(e.includes("cute") || e.includes("baby")){
+        for (let i = 0; i < images.length; i++){
+            if (!(images[i].includes("cute"))){
+                images.splice(i,1);
+                i -= 1;
+            }
+        }
+    }
+    if(e.includes("force")){
+        if(e.includes("dark")){
+            for (let i = 0; i < images.length; i++){
+                console.log(i);
+                if (!(images[i].includes("dark"))){
+                    images.splice(i,1);
+                    i -= 1;
+                }
+            }
+        }
+        else{
+            for (let i = 0; i < images.length; i++){
+                if (!(images[i].includes("force"))){
+                    images.splice(i,1);
+                    i -= 1;
+                }
+            }
+        }
+    }
+    //add yoda's quotes and enter function
+    let r = Math.floor(Math.random() * (images.length));
+    document.getElementById("yoda").src = "/Users/alexanderfung/Documents/GitHub/crimtech-comp-f21/yoda/img/".concat(images[r]);
+    //var popup = document.getElementById("myPopup");
+    let q = "";
+    if (document.getElementById("yoda").src.includes("force")){
+        let i = Math.floor(Math.random() * (force_quotes.length));
+        q=force_quotes[i];
+    }
+    else if(document.getElementById("yoda").src.includes("dark")){
+        let i = Math.floor(Math.random() * (dark_quotes.length));
+        q=dark_quotes[i];
+    }
+    else{
+        let i = Math.floor(Math.random() * (std_quotes.length));
+        q=std_quotes[i];
+    }
+    if (document.getElementById("yoda").src.includes("cute")){
+        document.getElementById("myPopup").innerHTML = "";
+    }
+    else{
+        document.getElementById("myPopup").innerHTML = q;
+    }
+    let h = "hm";
+    let m = Math.floor(Math.random() * (20));
+    for (let j = 0; j < m; j++){
+        h = h.concat("m");
+    }
+    document.getElementById("hmm").innerHTML = h;
+    document.getElementById("myPopup").classList.toggle("show");
 }
