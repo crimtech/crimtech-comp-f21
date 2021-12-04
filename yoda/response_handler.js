@@ -18,8 +18,43 @@ let std_quotes = ["Patience you must have, my young padawan.",
 "Judge me by my size, do you?",
 "Difficult to see. Always in motion is the future."
 ];
-
+document.addEventListener('DOMContentLoaded', function(){
+let responder = document.getElementById("responder"); 
+responder.onclick = ()=> { 
+    respond(); 
+};
+let pic = document.getElementById("pic"); 
+let quote = document.getElementById("textbox");
 function respond() {
     // Your Code Here
+    let text = quote.value;
+    if (text.includes("cute") || text.includes("baby"))
+    {
+        pic.setAttribute("src", "./img/cute-std.jpg");
+    }   
+    else if (text.includes("force"))
+    {
+        if (text.includes("dark"))
+        {
+            pic.setAttribute("src", "./img/regular-dark.jpg");
+        }
+        else
+        {
+            pic.setAttribute("src", "./img/regular-force.jpg");
+        }
+    }
+    quote.value = ""; 
+    let talk = document.getElementById("talk");
+    let s = "";
+    for (let i = 0; i < Math.random()*15 +7; i++)
+    {
+        s+="m";
+    }
+
+    talk.innerHTML = "h" + s + "\n"+ force_quotes[Math.floor(Math.random()*5)];
     console.log("Hello World!");
+    console.log(quote.innerHTML);
+    quote.innerHTML = ""; 
+
 }
+});
