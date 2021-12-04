@@ -28,6 +28,7 @@
   color: #61dafb;
 }
 
+<<<<<<< HEAD
 .PanelContainer {
   /* TODO: Your CSS Here! */
   min-height: 100vh;
@@ -41,6 +42,8 @@
   font-size: 40px;
 }
 
+=======
+>>>>>>> 8c797f8c37bf0b0504ed9d46e47ffca60e5218e6
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
